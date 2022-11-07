@@ -4,5 +4,6 @@ UPDATE ...
 SET cep= '', curso= ''
 WHERE = ''; 
 
-
-upadte
+UPDATE: 
+SET:
+WHERE:
