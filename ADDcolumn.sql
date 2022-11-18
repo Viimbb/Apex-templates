@@ -1,0 +1,2 @@
+ALTER TABLE nome_Da_Tabela ADD nome_Da_coluna_Nome dataType
+ALTER TABLE PRODUTOS ADD IDPRODUTO INT
