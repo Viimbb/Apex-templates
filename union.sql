@@ -1,14 +1,14 @@
  where d.cancelado = 'Não'
    and d.inicioperiodo1 >= to_date('&data_inicial','DD/MM/YYYY')
    and d.inicioperiodo1 <= to_date('&data_final','DD/MM/YYYY')
-   and s.mat_servidor not in (select mat_servidor from tabservidores)
+   and s.mat_sr not in (select mat_servidor from tab...)
 --order by 1,2
 
 UNION
 
 select d.ano,
        d.codigo,
-       d.mat_servidor,
+       d.mat_sr,
        d.nome_servidor  as nom,
        s.cargo,
        s.funcao,
